@@ -11,3 +11,8 @@ Obie gałęzie miały więc różną historię zmian, dlatego Git utworzył merg
 ## Informacja o rebase
 
 Ta gałąź zostanie zaktualizowana przy użyciu rebase.
+
+## Merge a rebase
+
+Merge zachowuje historię rozgałęzień i tworzy osobny merge commit.
+Rebase przepisuje commity na szczyt aktualnej gałęzi, dzięki czemu historia jest bardziej liniowa i czytelna.
