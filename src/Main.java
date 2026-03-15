@@ -37,4 +37,16 @@ public class Main {
 
         return max;
     }
-}git status
+
+    public static int calculateMin(int[] values) {
+        int min = values[0];
+
+        for (int value : values) {
+            if (value < min) {
+                min = value;
+            }
+        }
+
+        return min;
+    }
+}
