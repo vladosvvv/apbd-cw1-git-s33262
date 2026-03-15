@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Hello, " + name + "!");
         int[] numbers = {4, 7, 1, 9};
         System.out.println("Minimum value: " + calculateMin(numbers));
-        System.out.println("Program finished.");
+        System.out.println("Program finished successfully.");
     }
 
     public static double calculateAverage(int[] values) {
