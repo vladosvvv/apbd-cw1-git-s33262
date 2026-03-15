@@ -13,5 +13,6 @@ public class Main {
         }
 
         System.out.println("Hello, " + name + "!");
+        System.out.println("Program finished.");
     }
 }
