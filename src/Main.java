@@ -15,4 +15,14 @@ public class Main {
         System.out.println("Hello, " + name + "!");
         System.out.println("Program finished.");
     }
+
+    public static double calculateAverage(int[] values) {
+        int sum = 0;
+
+        for (int value : values) {
+            sum += value;
+        }
+
+        return (double) sum / values.length;
+    }
 }
