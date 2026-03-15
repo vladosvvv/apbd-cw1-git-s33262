@@ -25,4 +25,16 @@ public class Main {
 
         return (double) sum / values.length;
     }
-}
+
+    public static int calculateMax(int[] values) {
+        int max = values[0];
+
+        for (int value : values) {
+            if (value > max) {
+                max = value;
+            }
+        }
+
+        return max;
+    }
+}git status
